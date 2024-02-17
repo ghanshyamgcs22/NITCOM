@@ -1,5 +1,7 @@
 
-
+*{
+   user-select: none;
+}
 body{
 width: 100%;
 
@@ -254,18 +256,52 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
    text-decoration: none;
    background-color: #00ad45;
 }
+
 /*-- //header --*/
 /*-- banner --*/
 li#callbacks1_s0 {
+   background: black;
+}
+
+#background-ai-image-div img{
+   position: absolute;
+   z-index: -2;
+   height: 100%;
+   opacity: 0.5;
+}
+
+#impDates-bronchure-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+#acceptedPaper-div{
+   width: 100%;
+}
+#bronchure-paperSubmission-div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#bronchure-div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#paperSubmission-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+/* li#callbacks1_s1 {
    background: url(../images/ai.jpg) no-repeat 0px 0px;
    background-size: cover;
-   background-attachment: fixed;
-}
-li#callbacks1_s1 {
-   background: url(../images/ai.jpg) no-repeat 0px 0px;
-   background-size: cover;
-}
-li#callbacks1_s2 {
+} */
+/* li#callbacks1_s2 {
    background: url(../images/ai.jpg) no-repeat 0px 0px;
    background-size: cover;
 }
@@ -276,7 +312,7 @@ li#callbacks1_s3 {
 li#callbacks1_s4 {
    background: url(../images/ai.jpg) no-repeat 0px 0px;
    background-size: cover;
-}
+} */
 .banner1 {
    background: url(../images/CLG.jpg) no-repeat 0px 0px;
    background-size: cover;
