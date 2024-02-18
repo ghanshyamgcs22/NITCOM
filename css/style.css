@@ -337,9 +337,12 @@ li#callbacks1_s4 {
    position: relative;
    margin-top: 100px;
 }
-#track1{
 
-
+#header_submission{
+   background: black;
+}
+ul li:before{
+   color: white;
 }
 .banner1 {
    background: url(../images/CLG.jpg) no-repeat 0px 0px;
@@ -1491,7 +1494,7 @@ a.social-button.google:hover {
    /* align-items: center;
    height: 100vh;
    margin: auto 0; */
-} 
+}
 .contact-box
 {
    margin-top: 50px;
@@ -1505,17 +1508,17 @@ a.social-button.google:hover {
    padding: 20px 10px;
    border-radius: 5px;
    box-shadow:4px 4px 8px rgba(24, 21, 21, 0.5);
-   
+
 }
-.contact-details 
+.contact-details
 {
      padding:10px;
      display:flex;
      justify-content:left;
-     
+
      flex-direction: column;
      text-align: left;
-    
+
      /* margin-left: 60px; */
 }
 .contact-details h3{
