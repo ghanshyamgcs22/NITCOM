@@ -236,6 +236,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
    color: #FFFFFF;
    background: none;
    /* border: solid 2px #FFFFFF; */
+
    background: none;
 }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -277,13 +278,28 @@ li#callbacks1_s0 {
    justify-content: center;
    padding: 20px;
 }
+
+#important-dates-div1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#important-dates-div2{
+   padding: 0px;
+}
 #acceptedPaper-div{
    width: 100%;
 }
-#bronchure-paperSubmission-div{
+#bronchure-paperSubmission{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-top: 100px;
+
+}
+#container-top-div{
+   display: flex;
+   flex-direction: column;
 }
 #bronchure-div{
    display: flex;
@@ -295,7 +311,10 @@ li#callbacks1_s0 {
    display: flex;
    align-items: center;
    justify-content: center;
+}
 
+#welcome-nitcom-2024-div{
+   text-align: center;
 }
 /* li#callbacks1_s1 {
    background: url(../images/ai.jpg) no-repeat 0px 0px;
@@ -313,14 +332,24 @@ li#callbacks1_s4 {
    background: url(../images/ai.jpg) no-repeat 0px 0px;
    background-size: cover;
 } */
+
+#clgImagBackground{
+   position: relative;
+   margin-top: 100px;
+}
+#track1{
+
+
+}
 .banner1 {
    background: url(../images/CLG.jpg) no-repeat 0px 0px;
    background-size: cover;
+   top:100px;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    -ms-background-size: cover;
-   position: relative;
+   position: absolute;
    min-height:300px;
 }
 .wthree-different-dot {
