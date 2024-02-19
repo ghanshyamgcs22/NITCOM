@@ -356,7 +356,7 @@ li#callbacks1_s4 {
  font-weight: bold;
 }
 .events {
- list-style: none;
+ list-style: circle;
 }
 .callbacks_container {
  position: relative;
@@ -365,7 +365,7 @@ li#callbacks1_s4 {
 }
 .callbacks {
  position: relative;
- list-style: none;
+ list-style:circle;
  overflow: hidden;
  width: 100%;
  padding: 0;
@@ -449,7 +449,7 @@ li#callbacks1_s4 {
 }
 .rslides {
  position: relative;
- list-style: none;
+ list-style: circle;
  overflow: hidden;
  width: 100%;
  padding: 0;
@@ -472,7 +472,7 @@ li#callbacks1_s4 {
  border: 0;
  }
 .callbacks_tabs{
-   list-style: none;
+   list-style: circle;
    position: absolute;
    bottom: 49%;
    right: 20%;
@@ -1100,12 +1100,12 @@ ul.top-links li a i.fa:hover {
    background: #232323;
    margin: auto;
 }
-.footerleft, .footermiddle {
+/* .footerleft, .footermiddle {
    border-right: 1px solid #999;
-}
-.footermiddle {
+} */
+/* .footermiddle {
    padding: 0 0 0 50px;
-}
+} */
 .footer h3 {
    color: #eee;
    text-transform: uppercase;
@@ -1113,25 +1113,25 @@ ul.top-links li a i.fa:hover {
    font-weight: 600;
    margin-bottom: 1em;
 }
-.footerleft p {
+/* .footerleft p {
    font-size: 14px;
    line-height: 26px;
    text-transform: capitalize;
    color: #bbbbbb;
    margin-top: 1.5em;
-}
-.footermiddle p {
+} */
+/* .footermiddle p {
    color: #bbbbbb;
    line-height: 28px;
    font-size: 14px;
    letter-spacing: .5px;
-}
-.footermiddle p.phone {
+} */
+/* .footermiddle p.phone {
    margin-top: .8em;
    text-transform: capitalize;
-}
+} */
 ul.w3agile_footer_grid_list li {
-   list-style-type: none;
+   list-style-type: circle;
    color: #bbbbbb;
    line-height: 1.8em;
    margin-bottom: 1em;
@@ -1146,12 +1146,12 @@ ul.w3agile_footer_grid_list li span {
    display: block;
    margin: 1em 0 0;
 }
-.footermiddle a {
+/* .footermiddle a {
    color: #da9d40;
 }
 .footermiddle a:hover {
    color: #fff;
-}
+} */
 /* //footer */
 
 /* copyright */
@@ -1420,7 +1420,7 @@ section.portfolio-agileinfo .top1{
    margin-top: 2%;
 }
 section.portfolio-agileinfo .resp-tabs-list {
-   list-style: none;
+   list-style: circle;
    padding: 4em 0 3em;
    margin: 0 auto;
    text-align: center;
@@ -1433,7 +1433,7 @@ section.portfolio-agileinfo .resp-tab-item {
    display: inline-block;
    margin: 0;
    text-align: center;
-   list-style: none;
+   list-style: circle;
    outline: none;
    -webkit-transition: all 0.3s;
    -moz-transition: all 0.3s;
@@ -1584,7 +1584,7 @@ section.portfolio-agileinfo h3 {
    line-height: 1.4;
    text-align: center;
    font-size: 12px;
-   list-style-type: none;
+   list-style-type: circle;
 }
 .codes .bs-glyphicons .glyphicon {
    margin-top: 5px;
@@ -1637,7 +1637,7 @@ h2.tittle-w3,h3.agileits-icons-title {
    line-height: 1.4;
    text-align: center;
    font-size: 12px;
-   list-style-type: none;
+   list-style-type: circle;
    background:rgba(149, 149, 149, 0.18);
    margin: 1%;
 }
@@ -1935,7 +1935,7 @@ h2.typoh2{
 }
 .aboutpageicons li {
    display: inline-block;
-   list-style-type: none;
+   list-style-type: circle;
    padding: 15px;
 }
 .aboutpageicons {
@@ -2310,13 +2310,13 @@ h2.typoh2{
    .statbottom p {
        width: 100%;
    }
-   .footerleft, .footermiddle {
+   /* .footerleft, .footermiddle {
        border-right: transparent;
        margin-bottom: 4em;
-   }
-   .footermiddle {
+   } */
+   /* .footermiddle {
        padding: 0 0 0 15px;
-   }
+   } */
    .aboutpagemiddle, .aboutpageright {
        width: 50%;
        float: left;

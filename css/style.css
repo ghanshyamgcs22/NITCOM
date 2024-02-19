@@ -6,6 +6,11 @@ body{
 width: 100%;
 
 }
+
+table, th, td {
+   border: 3px solid white;
+ }
+
 /* updateed background image */
 .timeline-1{
    background-image:url("../images/images-5.jpg");
@@ -455,7 +460,7 @@ ul li:before{
  font-weight: bold;
 }
 .events {
- list-style: none;
+ list-style: circle;
 }
 .callbacks_container {
  position: relative;
@@ -464,7 +469,7 @@ ul li:before{
 }
 .callbacks {
  position: relative;
- list-style: none;
+ list-style: circle;
  overflow: hidden;
  width: 100%;
  padding: 0;
@@ -548,7 +553,7 @@ ul li:before{
 }
 .rslides {
  position: relative;
- list-style: none;
+ list-style: circle;
  overflow: hidden;
  width: 100%;
  padding: 0;
@@ -571,7 +576,7 @@ ul li:before{
  border: 0;
  }
 .callbacks_tabs{
-   list-style: none;
+   list-style: circle;
    position: absolute;
    bottom: 49%;
    right: 20%;
@@ -1224,7 +1229,7 @@ ul.top-links li a i.fa:hover {
    text-transform: capitalize;
 }
 ul.w3agile_footer_grid_list li {
-   list-style-type: none;
+   list-style-type: circle;
    color: #bbbbbb;
    line-height: 1.8em;
    margin-bottom: 1em;
@@ -1563,7 +1568,7 @@ section.portfolio-agileinfo .top1{
    margin-top: 2%;
 }
 section.portfolio-agileinfo .resp-tabs-list {
-   list-style: none;
+   list-style: circle;
    padding: 4em 0 3em;
    margin: 0 auto;
    text-align: center;
@@ -1576,7 +1581,7 @@ section.portfolio-agileinfo .resp-tab-item {
    display: inline-block;
    margin: 0;
    text-align: center;
-   list-style: none;
+   list-style: circle;
    outline: none;
    -webkit-transition: all 0.3s;
    -moz-transition: all 0.3s;
@@ -1727,7 +1732,7 @@ section.portfolio-agileinfo h3 {
    line-height: 1.4;
    text-align: center;
    font-size: 12px;
-   list-style-type: none;
+   list-style-type: circle;
 }
 .codes .bs-glyphicons .glyphicon {
    margin-top: 5px;
@@ -1780,7 +1785,7 @@ h2.tittle-w3,h3.agileits-icons-title {
    line-height: 1.4;
    text-align: center;
    font-size: 12px;
-   list-style-type: none;
+   list-style-type: circle;
    background:rgba(149, 149, 149, 0.18);
    margin: 1%;
 }
@@ -1854,9 +1859,9 @@ h3.hdg {
    background:none;
    padding:2em 0;
 }
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+/* .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
  border-top: none !important;
-}
+} */
 .tab-content > .active {
  display: block;
  visibility: visible;
@@ -1895,14 +1900,14 @@ margin-top: 1em;
  padding: 16px;
  background-color: #ffffff;
 }
-.table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+/* .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
  padding: 15px!important;
-}
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+} */
+/* .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
  font-size: 0.9em;
  color: #555;
  border-top: none !important;
-}
+} */
 .tab-content > .active {
  display: block;
  visibility: visible;
@@ -2025,12 +2030,12 @@ h2.typoh2{
    .well {
        padding: 10px;
    }
-   .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+   /* .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
        font-size: 0.81em;
-   }
-   .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+   } */
+   /* .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
        padding: 12px!important;
-   }
+   } */
    .codes .row {
        margin: 0;
    }
@@ -2078,7 +2083,7 @@ h2.typoh2{
 }
 .aboutpageicons li {
    display: inline-block;
-   list-style-type: none;
+   list-style-type: circle;
    padding: 15px;
 }
 .aboutpageicons {
