@@ -739,7 +739,10 @@ ul.nav.navbar-nav .hvr-bounce-to-bottom:before {
 /* //Bounce To About */
 
 /* About */
-
+.aboutpage{
+   position:relative;
+   top:45px;
+}
 .about,.services,.contact,.subscribe,.portfolio-agileinfo,.codes,.typography,.team-section,.aboutpage  {
    padding: 6em 0;
 }
