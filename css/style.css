@@ -741,7 +741,8 @@ ul.nav.navbar-nav .hvr-bounce-to-bottom:before {
 /* About */
 .aboutpage{
    position:relative;
-   top:45px;
+   top:5em;
+   margin: 5em;
 }
 .about,.services,.contact,.subscribe,.portfolio-agileinfo,.codes,.typography,.team-section,.aboutpage  {
    padding: 6em 0;
@@ -1200,8 +1201,9 @@ ul.top-links li a i.fa:hover {
 
 /* footer */
 .footer {
-   padding: 5em 0 3em;
+   padding: 6em 0 3em;
    background: #232323;
+   position:relative;
 }
 
 .footermiddle {
