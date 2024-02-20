@@ -1498,7 +1498,9 @@ a.social-button.google:hover {
    flex-direction: column;
    justify-content: center;
    max-width: 600px;
-   margin:auto;
+   margin: auto;
+    position: relative;
+   top: 66px;
    /* align-items: center;
    height: 100vh;
    margin: auto 0; */
