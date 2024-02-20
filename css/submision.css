@@ -129,6 +129,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
    -o-transition: .5s ease-in;
    -ms-transition: .5s ease-in;
 }
+
 .header {
    background: rgba(0, 0, 0, 0.47);
    padding: .5em 0;
