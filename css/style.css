@@ -1585,6 +1585,10 @@ a.social-button.google:hover {
   margin-top: 5px;
 
 }
+div#contact {
+   position: relative;
+   top: 5em;
+}
 
 /* //contact */
 /* contact page */
