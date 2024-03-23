@@ -35,7 +35,7 @@ width: 100%;
    background-image: url("../images/SunandhitPhotoGraphy.jpeg");
    background-size: cover;
    background-attachment: fixed;
-   opacity: 0.5; /* Adjust the opacity value */
+   opacity: 0.4; /* Adjust the opacity value */
  }
 
 .vda_kro{
@@ -520,7 +520,7 @@ ul li:before{
 }
 .callbacks_container {
  position: relative;
- float: left;
+ float: right;
  width: 100%;
 }
 .callbacks {
