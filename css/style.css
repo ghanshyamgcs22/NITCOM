@@ -23,8 +23,9 @@ width: 100%;
 }
 #background-ai-image-div {
    position: relative; /* Ensure proper stacking context */
+   width: 100%;
  }
- 
+
  #background-ai-image-div::before {
    content: '';
    position: absolute;
@@ -2329,7 +2330,22 @@ text-decoration: underline;
    }
 }
 @media screen and (max-width: 1080px){
-
+   .timeline h2{
+      font-size: 20px;
+   }
+   .navbar-default{
+      width: 100vw;
+   }
+   .navbar-nav > li > a {
+      font-size: 1.6rem;
+      margin-right: 0px;
+  }
+   .w3layouts-logo img{
+      width: 80px;
+   }
+   .w3layouts-logo h1{
+      font-size: 32px;
+   }
    .banner_text {
        padding: 15em 0 15em;
    }
@@ -2421,6 +2437,9 @@ text-decoration: underline;
 
 
 @media screen and (max-width: 1024px){
+   .navbar-default{
+      width: 100vw;
+   }
    .w3layouts-logo h1 {
        font-size: 35px;
    }
@@ -2946,6 +2965,40 @@ text-decoration: underline;
    }
    .banner1 h2 {
        padding-top: 3em;
+   }
+}
+/* sunandhit ------------ */
+@media screen and (max-width: 450px){
+   .footer {
+
+   }
+
+   .footermiddle {
+
+   }
+   .footer h3 {
+
+
+      font-size: 15px;
+
+      margin-bottom: 1em;
+   }
+   .footerleft p {
+      font-size: 8px;
+      line-height: 26px;
+      text-transform: capitalize;
+      color: #bbbbbb;
+      margin-top: 1.5em;
+   }
+   .footermiddle p {
+      color: #bbbbbb;
+      line-height: 28px;
+      font-size: 8px;
+      letter-spacing: .5px;
+   }
+   .footermiddle p.phone {
+      margin-top: .8em;
+      text-transform: capitalize;
    }
 }
 @media screen and (max-width: 414px){
