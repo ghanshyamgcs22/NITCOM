@@ -395,6 +395,28 @@ li#callbacks1_s4 {
    background-size: cover;
 } */
 
+/* timeline paddings----------- */
+#container_left_1{
+   padding: 10px 0px;
+}
+#container_right_1{
+   padding: 10px 0px;
+   margin-left: 150px;
+}
+#container_left_2{
+   padding: 10px 0px;
+}
+#container_right_2{
+   padding: 10px 0px;
+   margin-left: 150px;
+}
+#container_left_3{
+   padding: 10px 0px;
+}
+
+/* -------------------- */
+
+
 #clgImagBackground{
    position: relative;
    margin-top: 100px;
@@ -2330,6 +2352,27 @@ text-decoration: underline;
    }
 }
 @media screen and (max-width: 1080px){
+
+   /* timeline paddings----------- */
+   #container_left_1{
+      padding: 10px 0px;
+   }
+   #container_right_1{
+      padding: 10px 0px;
+      margin-left: 100px;
+   }
+   #container_left_2{
+      padding: 10px 0px;
+   }
+   #container_right_2{
+      padding: 10px 0px;
+      margin-left: 100px;
+   }
+   #container_left_3{
+      padding: 10px 0px;
+   }
+
+   /* -------------------- */
    .timeline h2{
       font-size: 20px;
    }
@@ -2655,6 +2698,29 @@ text-decoration: underline;
    }
 }
 @media screen and (max-width: 736px){
+
+
+   /* timeline */
+
+   #container_left_1{
+      padding: 10px 0px;
+   }
+   #container_right_1{
+      padding: 10px 0px;
+      margin-left: 0px;
+   }
+   #container_left_2{
+      padding: 10px 0px;
+   }
+   #container_right_2{
+      padding: 10px 0px;
+      margin-left: 0px;
+   }
+   #container_left_3{
+      padding: 10px 0px;
+   }
+
+   /* -------- */
    .title2 {
            font-size: 14px;
            margin-top: 120px;
@@ -2801,6 +2867,38 @@ text-decoration: underline;
    }
 }
 @media screen and (max-width: 600px){
+/* -------------------------------------- */
+   #container_left_1{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 140px;
+      margin-right: 0px;
+   }
+   #container_right_1{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 260px;
+      margin-right: 0px;
+   }
+   #container_left_2{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 140px;
+      margin-right: 0px;
+   }
+   #container_right_2{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 260px;
+      margin-right: 0px;
+   }
+   #container_left_3{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 140px;
+      margin-right: 0px;
+   }
+/* ----------------------------------- */
    .aboutimg img {
        width: 230px;
        height: 230px;
@@ -2969,7 +3067,45 @@ text-decoration: underline;
 }
 /* sunandhit ------------ */
 @media screen and (max-width: 450px){
-
+   /* NEXT_GEN_BANNER */
+   #Next_Gen_Banner{
+      font-size: 20px;
+      margin-top: 40px;
+      line-height: 30px;
+   }
+   /* --------------- */
+   /* timeline--------- */
+   #container_left_1{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 100px;
+      margin-right: 0px;
+   }
+   #container_right_1{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 260px;
+      margin-right: 0px;
+   }
+   #container_left_2{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 100px;
+      margin-right: 0px;
+   }
+   #container_right_2{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 260px;
+      margin-right: 0px;
+   }
+   #container_left_3{
+      width: 90vw;
+      padding: 10px 20px;
+      margin-left: 100px;
+      margin-right: 0px;
+   }
+   /* ----------------- */
    #table_1_submission{
       padding: 20px;
    }
