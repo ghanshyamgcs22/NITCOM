@@ -2516,6 +2516,7 @@ h2.typoh2{
  position: relative;
  padding: 5rem 0 15rem;
  color: rgba(255, 255, 255, 0.3);
+ width: 100vw;
 }
 #subm .overlay {
  position: absolute;

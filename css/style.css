@@ -2969,6 +2969,23 @@ text-decoration: underline;
 }
 /* sunandhit ------------ */
 @media screen and (max-width: 450px){
+
+   #table_1_submission{
+      padding: 20px;
+   }
+   #table_2_submission{
+      padding: 20px;
+   }
+   #table_3_submission{
+      padding: 20px;
+   }
+   ul{
+      font-size: 8px
+   }
+   li{
+      line-height: 1.6em;
+   }
+
    .footer {
 
    }
@@ -3168,6 +3185,20 @@ text-decoration: underline;
    }
 }
 @media screen and (max-width: 320px){
+
+
+   /* sunandhit------- */
+   #table_1_submission td{
+      padding: 4px;
+   }
+   #table_2_submission td{
+      padding: 4px;
+   }
+   #table_3_submission td{
+      padding: 4px;
+   }
+   /* ------------------ */
+
    .w3layouts-logo h1 {
        font-size: 24px;
    }
