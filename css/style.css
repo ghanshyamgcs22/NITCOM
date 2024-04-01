@@ -23,7 +23,7 @@ width: 100%;
 }
 #background-ai-image-div {
    position: relative; /* Ensure proper stacking context */
-   width: 100%;
+   width: 100vw;
  }
 
  #background-ai-image-div::before {
@@ -31,12 +31,14 @@ width: 100%;
    position: absolute;
    top: 0;
    left: 0;
-   width: 100%;
+   width: 100vw;
    height: 100%;
    background-image: url("../images/SunandhitPhotoGraphy.jpeg");
-   background-size: cover;
+
    background-attachment: fixed;
-   opacity: 0.4; /* Adjust the opacity value */
+   background-size: 100vw 100vh;
+   opacity: 0.4;
+   /* Adjust the opacity value */
  }
 
 .vda_kro{
@@ -341,14 +343,29 @@ table, th, td ,tr{
    padding: 20px;
 }
 
+#important_dates_div_flex{
+   display: flex;
+   flex-direction: column;
+}
 #important-dates-div1{
    display: flex;
    justify-content: center;
    align-items: center;
 }
-#important-dates-div2{
-   padding: 0px;
+
+#xyz6{
+   font-size:1.7rem;
+   font-weight: 300;
+   letter-spacing: 1px;
+   color:white;
+   text-wrap: nowrap;
+   font-family:verdana;
+   text-align: center;
 }
+/* #important-dates-div2{
+   padding: 0px;
+
+} */
 #acceptedPaper-div{
    width: 100%;
 }
@@ -358,6 +375,19 @@ table, th, td ,tr{
    align-items: center;
    margin-top: 100px;
 
+}
+
+#bronchure_span{
+   color: #ff6600;
+   font-weight: 1000;
+   font-size: 1.5rem;
+   padding: 0px;
+}
+#paperSubmission_span{
+   color: #ff6600;
+   font-weight: 1000;
+   font-size: 1.5rem;
+   padding: 0px;
 }
 #container-top-div{
    display: flex;
@@ -2948,8 +2978,20 @@ text-decoration: underline;
    }
 }
 @media screen and (max-width: 568px){
+   #bronchure_span{
+      font-size: 10px;
+   }
+   #paperSubmission_span{
+      font-size: 10px;
+   }
+   #acceptedPaper-div{
+      font-size: 8px;
+   }
 
-
+   #xyz6{
+      font-size: 8px;
+      line-height: 12px;
+   }
    .aboutleft h3 {
        font-size: 18px;
    }
