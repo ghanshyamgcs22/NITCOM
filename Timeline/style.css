@@ -30,6 +30,12 @@ body {
         transform: translateUY(0px);
     }
 }
+.timeline h2{
+    color: #0369a0;
+}
+/* .timeline ul li{
+    color: ;
+} */
 .timeline .text-box {
     padding: 20px 30px;
     /* background: #f900ff21; */
@@ -39,7 +45,9 @@ body {
     border-radius: 6px;
     font-size: 15px;
 }
-
+.timeline li{
+font-size: 2.2rem;
+}
 .timeline .left-container {
 
     left: -23%;
